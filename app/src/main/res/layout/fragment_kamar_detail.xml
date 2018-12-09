@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:orientation="vertical"
+    tools:context=".fragment.KamarDetailFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <!--<ScrollView-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content">-->
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:id="@+id/textTitle"
+                android:text="Tipe Kamar" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="fasilitas yang ada"
+                android:id="@+id/textFasilitas"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="harga ini"
+                android:id="@+id/textPrice"/>
+
+            <!--<ImageView-->
+                <!--android:id="@+id/fotoKamar"-->
+                <!--android:src="@drawable/star"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="match_parent" />-->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:orientation="horizontal">
+
+            <br.com.felix.imagezoom.ImageZoom
+                android:id="@+id/fotoKamar2"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_marginRight="10dp"
+                android:adjustViewBounds="true"
+                android:scaleType="centerCrop"
+                android:src="@drawable/star" />
+
+            <br.com.felix.imagezoom.ImageZoom
+                android:id="@+id/fotoKamar3"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_marginRight="10dp"
+                android:adjustViewBounds="true"
+                android:scaleType="centerCrop"
+                android:src="@drawable/star" />
+
+            <br.com.felix.imagezoom.ImageZoom
+                android:id="@+id/fotoKamar4"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_marginRight="10dp"
+                android:adjustViewBounds="true"
+                android:scaleType="centerCrop"
+                android:src="@drawable/star" />
+        </LinearLayout>
+
+    <br.com.felix.imagezoom.ImageZoom
+        android:id="@+id/fotoKamar"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/star" />
+
+            <!--<com.ladwa.aditya.greytouchimageview.GreyTouchImageView-->
+                <!--android:id="@+id/fotoKamar"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="130dp"-->
+                <!--android:src="@drawable/star"/>-->
+
+            <!--<com.example.imagewatermark2.ImageWaterMarkView-->
+                <!--android:id="@+id/fotoKamar"-->
+                <!--android:src="@drawable/star"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="match_parent">-->
+
+            <!--</com.example.imagewatermark2.ImageWaterMarkView>-->
+
+    <!--</ScrollView>-->
+
+
+</LinearLayout>
